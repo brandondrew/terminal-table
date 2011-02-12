@@ -1,4 +1,3 @@
-
 = Terminal Table
 
 Simple, feature rich ASCII table generator.
@@ -156,3 +155,8 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+=NOTES TO SELF:
+====add support for color: currently adding color codes throws off the spacing of cells, and you have to look up the stinkin' things; instead it should be easy and not break anything
+====Unicode characters for nicer looking borders might be nice, although I don't know offhand if there's anyway to detect whether a given terminal supports unicode characters
+====Support for 'tighter' tables by using underlining as row separators might possibly be useful
